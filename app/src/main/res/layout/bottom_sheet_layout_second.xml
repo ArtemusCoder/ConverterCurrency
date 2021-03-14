@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:padding="16dp"
+    android:background="?attr/background_color"
+    tools:ignore="ExtraText">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Валюта"
+        android:textColor="?attr/main_text"
+        android:textSize="32dp"
+        />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/rub_button_second"
+        style="@style/Widget.MaterialComponents.Button.TextButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="РУБ"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="?attr/main_text"
+        android:textSize="30dp"
+        app:rippleColor="@color/blue_input"
+        app:strokeColor="@color/blue_input"
+        app:strokeWidth="1px" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/usd_button_second"
+        style="@style/Widget.MaterialComponents.Button.TextButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="USD"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="?attr/main_text"
+        android:textSize="30dp"
+        app:rippleColor="@color/blue_input"
+        app:strokeColor="@color/blue_input"
+        app:strokeWidth="1px" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/euro_button_second"
+        style="@style/Widget.MaterialComponents.Button.TextButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="EURO"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="?attr/main_text"
+        android:textSize="30dp"
+        app:rippleColor="@color/blue_input"
+        app:strokeColor="@color/blue_input"
+        app:strokeWidth="1px" />
+
+</LinearLayout>

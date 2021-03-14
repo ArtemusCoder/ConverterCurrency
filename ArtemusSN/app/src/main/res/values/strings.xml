@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">ArtemusApp</string>
+    <string name="menu_search">Search</string>
+    <string name="menu_settings">Settings</string>
+    <string name="menu_navigation">Action</string>
+</resources>

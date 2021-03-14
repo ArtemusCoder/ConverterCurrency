@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "117126065935",
+    "firebase_url": "https://artemusapp.firebaseio.com",
+    "project_id": "artemusapp",
+    "storage_bucket": "artemusapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:117126065935:android:54c5f9b68d96d9f0",
+        "android_client_info": {
+          "package_name": "com.example.artemusapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "117126065935-l47funcqma8ud4j0p505n3vqhscopib8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.artemusapp",
+            "certificate_hash": "c62103757afda1c5a84e0cf26e2a25962be304ae"
+          }
+        },
+        {
+          "client_id": "117126065935-tkltll0ie8fki4f515n1305h7tam7je2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAW0kTh9Mvsgr6XbmRxst1KVktbBzPm0_M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "117126065935-tkltll0ie8fki4f515n1305h7tam7je2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

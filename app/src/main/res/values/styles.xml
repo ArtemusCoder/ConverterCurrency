@@ -1,0 +1,28 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">#fff</item>
+        <item name="colorPrimaryDark">#B4B4B4</item>
+        <item name="background_color">#fff</item>
+        <item name="main_text">#000</item>
+        <item name="button_main_fill">#D4D7DE</item>
+        <item name="button_cancel_fill">#FF3200</item>
+        <item name="android:windowAnimationStyle">@style/WindowAnimationTransition</item>
+    </style>
+
+    <style name="DarkTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">#232323</item>
+        <item name="colorPrimaryDark">#000</item>
+        <item name="background_color">#3A3A3A</item>
+        <item name="main_text">#B8B7B7</item>
+        <item name="button_main_fill">#B6B6B6</item>
+        <item name="button_cancel_fill">#FF3200</item>
+        <item name="android:windowAnimationStyle">@style/WindowAnimationTransition</item>
+    </style>
+
+    <style name="WindowAnimationTransition">
+        <item name="android:windowEnterAnimation">@android:anim/fade_in</item>
+        <item name="android:windowExitAnimation">@android:anim/fade_out</item>
+    </style>
+</resources>
